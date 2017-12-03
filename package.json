@@ -1,0 +1,27 @@
+{
+  "name": "get-random-name",
+  "version": "1.0.0",
+  "description": "Get Random name",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourav52/get-random-name.git"
+  },
+  "keywords": [
+    "random",
+    "name",
+    "name"
+  ],
+  "author": "Sourav <dash.sourav126@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sourav52/get-random-name/issues"
+  },
+  "homepage": "https://github.com/sourav52/get-random-name#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
