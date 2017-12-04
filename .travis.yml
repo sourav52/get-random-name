@@ -9,8 +9,6 @@ node_js:
   - iojs
 after_success:
   - npm run semantic-release
-script:
-  - npm run test
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
