@@ -27,5 +27,13 @@ describe("pokemon-names",function() {
 			var randomItem = pokemon.random();
 			expect(pokemon.all).to.include(randomItem);
 		});
+
+		it('should return an array of random items if passed a number',function() {
+			var randomItems = pokemon.random(3);
+			expect(randomItems).to.have.length(3);
+			randomItems.forEach(function(item) {
+				expect(pokemon.all).to.include(item);
+			});
+		});
 	});
 });
